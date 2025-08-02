@@ -44,12 +44,12 @@ document.getElementById("container3D").appendChild(renderer.domElement);
 camera.position.z = 2;
 
 //Add lights
-const topLight = new THREE.DirectionalLight(0xffffff, 12);
+const topLight = new THREE.DirectionalLight(0xffffff, 30);
 topLight.position.set(500, 500, 500);
 // topLight.castShadow = true;
 scene.add(topLight);
 
-const ambientLight = new THREE.AmbientLight(0xffffff, 12);
+const ambientLight = new THREE.AmbientLight(0xffffff, 30);
 scene.add(ambientLight);
 
 //Add OrbitControls for purple_cameraman
