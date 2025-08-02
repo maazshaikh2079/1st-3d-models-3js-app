@@ -31,6 +31,9 @@ loader.load(
   `./models/${objToRender}/scene.gltf`,
   function (gltf) {
     object = gltf.scene;
+        // object.scale.set(200, 20, 100);
+    // object.scale.set(150, 20, 350);ff
+    // object.position.set(0, 0, 0);
     scene.add(object);
   },
   function (xhr) {
